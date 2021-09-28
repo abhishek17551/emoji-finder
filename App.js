@@ -23,7 +23,7 @@ export default function App() {
     var meaning = emojiDictionary[userInput];
 
     if (meaning === undefined) {
-      console.log("The emoji is not part of our DB!");
+      meaning = "The emoji is not part of our DB!";
     }
 
     setMeaning(meaning);
